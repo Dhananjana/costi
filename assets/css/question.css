@@ -1,0 +1,42 @@
+.buttonx {
+    border-radius: 4px;
+   
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.buttonx span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.buttonx span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.buttonx:hover span {
+    padding-right: 25px;
+}
+
+.buttonx:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+#bckg{
+    opacity: 0.8;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
