@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class sign extends CI_Controller {
+class Sign extends CI_Controller {
 	public function index(){
 		$this->load->view('newsign');
 		

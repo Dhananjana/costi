@@ -1,6 +1,6 @@
 <?php
 
-class sign_model extends CI_Model
+class Sign_model extends CI_Model
 {
 	public function reg($data){
 		$insert = $this->db->insert('user',$data);
